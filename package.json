@@ -1,0 +1,15 @@
+{
+  "name": "project-colorize",
+  "main": "./lib/project-colorize",
+  "version": "0.0.1",
+  "description": "Visually differentiate between different projects in Atom.",
+  "repository": "https://github.com/jasonporritt/project-colorize",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "geopattern": "*",
+    "jquery": "*"
+  }
+}
