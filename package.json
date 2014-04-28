@@ -1,8 +1,8 @@
 {
   "name": "project-colorize",
   "main": "./lib/project-colorize",
-  "version": "0.0.1",
-  "description": "Visually differentiate between different projects in Atom.",
+  "version": "0.0.0",
+  "description": "Color the tab bar background to differentiate between different open projects in Atom.",
   "repository": "https://github.com/jasonporritt/project-colorize",
   "license": "MIT",
   "engines": {
