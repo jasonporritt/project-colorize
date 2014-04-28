@@ -1,5 +1,4 @@
 GeoPattern = require 'geopattern'
-$ = require 'jquery'
 
 module.exports =
   activate: (state) ->
