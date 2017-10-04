@@ -42,10 +42,9 @@ module.exports =
     style.type = 'text/css'
 
     if not patternString and atom.config.get 'project-colorize.noPatternOnEmptyString'
-      style.innerText = '.tab-bar { background-image: none;}'
+      style.innerText = ':root { --project-pattern-image: none;}'
     else
-      style.innerText = '.tab-bar { background-image: ' + pattern.toDataUrl() + ';}'
+      style.innerText = ':root { --project-pattern-image: ' + pattern.toDataUrl() + '; }'
 
     workspaceElement = atom.views.getView atom.workspace
     workspaceElement.appendChild style
-
